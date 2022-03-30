@@ -5,16 +5,17 @@
 }
 
 header {
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: gray;
-    color:black
+	padding: 10px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: gray;
+	color: black
 }
 
 header h1 {
-    font-size: 48px;
+	font-size: 48px;
 	color: black;
 }
+
 ul {
 	list-style: none;
 }
@@ -26,9 +27,9 @@ a {
 section {
 	width: 100%;
 	height: 900px;
-	background-image: url(/assets/img/useforbackground.jpg);
+	background-image: url("./assets/img/use.for.background.jpg");
+	background-repeat: repeat;
 	background-size: cover;
-	background-repeat: no-repeat;
 	position: relative;
 }
 
@@ -43,17 +44,18 @@ nav {
 }
 
 a {
-    color:black;
-    text-decoration: none;
+	color: black;
+	text-decoration: none;
 
 }
 
 p {
-    font-size: 16px;
+	font-size: 18px;
 }
+
 nav ul {
 	display: flex;
-	
+
 }
 
 nav ul li a {
@@ -62,7 +64,7 @@ nav ul li a {
 	color: black;
 	font-size: 30px;
 	font-weight: 700;
-	
+
 }
 
 .float-left {
@@ -86,7 +88,7 @@ nav ul li a {
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color:black
+	color: black
 }
 
 .section-content {
@@ -94,7 +96,7 @@ nav ul li a {
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color:black
+	color: black
 }
 
 .section-content img {
@@ -107,11 +109,11 @@ nav ul li a {
 }
 
 .About {
-	margin:20px;
+	margin: 20px;
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color:black;
+	color: black;
 }
 
 #About {
@@ -119,7 +121,7 @@ nav ul li a {
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color:black
+	color: black
 }
 
 #Contact-Me {
@@ -127,32 +129,38 @@ nav ul li a {
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color:black;
+	color: black;
 }
 
 #Work {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	padding: 50px;
 	height: 300px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color:black;
+	color: black;
 }
 
 .footer {
-    padding: 3px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    box-sizing: border-box;
-    display: block;
+	padding: 3px;
+	clear: both;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	box-sizing: border-box;
+	display: flex;
 }
 
-.footer h3 {
-    font-size: 20px;
-    
+.footer h4 {
+	font-size: 20px;
+	font-display: center;
+}
+
+.footer p {
+	text-align: center;
 }
 
 .float-center {
 	float: center;
 	margin-left: 15px;
+	text-align: center;
+	flex-wrap: flex;
 }
